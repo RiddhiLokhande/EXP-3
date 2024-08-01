@@ -17,60 +17,60 @@ Arithmetic Operators
 These operators perform mathematical operations.
 Perform various arithmetic operations and use assignment operators to update variable values.
 
-1. - + (Addition)
-2. - - (Subtraction)
-3. - * (Multiplication)
-4. - / (Division)
-5. - % (Modulus)
+1.  + (Addition)
+2.  - (Subtraction)
+3.  * (Multiplication)
+4.  / (Division)
+5.  % (Modulus)
 
 Relational Operators
 These operators compare two values and return a boolean result.
 
-1. - == (Equal to)
-2. - != (Not equal to)
-3. - > (Greater than)
-4. - < (Less than)
-5. - >= (Greater than or equal to)
-6. - <= (Less than or equal to)
+1.  == (Equal to)
+2.  != (Not equal to)
+3.  > (Greater than)
+4.  < (Less than)
+5.  >= (Greater than or equal to)
+6.  <= (Less than or equal to)
 
 Logical Operators
 These operators are used to perform logical operations and return a boolean result.
 
-1. - && (Logical AND)
-2. - || (Logical OR)
-3. - ! (Logical NOT)
+1.  && (Logical AND)
+2.  || (Logical OR)
+3.  ! (Logical NOT)
 
 Bitwise Operators
 These operators perform bit-level operations on integer types.
 Implement a program that demonstrates the use of bitwise operators, such as setting, clearing, and toggling bits.
 
-1. - & (Bitwise AND)
-2. - | (Bitwise OR)
-3. - ^ (Bitwise XOR)
-4. - ~ (Bitwise NOT)
-5. - << (Left shift)
-6. - >> (Right shift)
+1.  & (Bitwise AND)
+2.  | (Bitwise OR)
+3.  ^ (Bitwise XOR)
+4.  ~ (Bitwise NOT)
+5.  << (Left shift)
+6.  >> (Right shift)
 
 Assignment Operators
 These operators assign values to variables.
 
-1. - = (Assignment)
-2. - += (Add and assign)
-3. - -= (Subtract and assign)
-4. - *= (Multiply and assign)
-5. - /= (Divide and assign)
-6. - %= (Modulus and assign)
-7. - &= (Bitwise AND and assign)
-8. - |= (Bitwise OR and assign)
-9. - ^= (Bitwise XOR and assign)
-10. - <<= (Left shift and assign)
-11. - >>= (Right shift and assign)
+1.  = (Assignment)
+2.  += (Add and assign)
+3.  -= (Subtract and assign)
+4.  *= (Multiply and assign)
+5.  /= (Divide and assign)
+6.  %= (Modulus and assign)
+7.  &= (Bitwise AND and assign)
+8.  |= (Bitwise OR and assign)
+9.  ^= (Bitwise XOR and assign)
+10.  <<= (Left shift and assign)
+11.  >>= (Right shift and assign)
 
 Increment and Decrement Operators
 These operators increase or decrease the value of a variable by one.
 
-1. - ++ (Increment)
-2. - -- (Decrement)
+1.  ++ (Increment)
+2.  -- (Decrement)
 
 
 
