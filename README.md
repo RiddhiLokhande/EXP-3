@@ -88,34 +88,74 @@ These operators increase or decrease the value of a variable by one.
 
 ## Code 1 SIZE OF DATATYPES 
 ```cpp
-//RIDDHI LOKHANDE
+//RIDDHI LOKAHNDE
 //ENTC B2
-//EXP 2 A
 //23070123107
-#include <iostream>
+//EXP 3 A
+#include<iostream>
 using namespace std;
-int main() {
-    cout << "size of char: " << sizeof(char) << " byte" << endl;
-    cout << "size of int: " << sizeof(int) << " byte" << endl;
-    cout << "size of float: " << sizeof(float) << " byte" << endl;
-    cout << "size of double: " << sizeof(double) << " byte" << endl;
-    cout << "size of short int: " << sizeof(short int) << "byte" << endl;
-    cout << "size of long int: " << sizeof(long int) << "byte" << endl;
-    cout << "size of unsigned char: " << sizeof(unsigned char) << "byte" << endl;
-    cout << "size of signed char: " << sizeof(signed char) << "byte" << endl;
-    cout << "size of unsigned int: " << sizeof(unsigned int) << "byte" << endl;
-    cout << "size of signed int: " << sizeof(signed int) << "byte" << endl;
-    cout << "size of unsigned long int: " << sizeof(unsigned long int) << "byte" << endl;
-    cout << "size of signed long int: " << sizeof(signed long int) << "byte" << endl;
-    cout << "size of unsigned short int: " << sizeof(unsigned short int) << "byte" << endl;
-    cout << "size of signed short int: " << sizeof(signed short int) << "byte" << endl;
-    cout << "size of unsigned long long int: " << sizeof(unsigned long long int) << "byte" << endl;
-    cout << "size of bool: " << sizeof(bool) << "byte" << endl;
+int main(){
+    int a=5;
+    int b=6;
+    int sum,sub,multiplication,modulus,increment,decrement;
+    int c = 10;
+    sum=a+b;
+    sub=a-b;
+    multiplication=a*b;
+    modulus=a%b;
+    increment= ++a;
+    decrement= --a;
+    cout << "\nArithmetic Operators:" << endl;
+    cout << "a + b = " << sum << endl;
+    cout << "a - b = " << sub << endl;
+    cout << "a * b = " << multiplication << endl;
+    cout << "a % b = " << modulus<< endl;
+    cout << "++a = " << increment<< endl;
+    cout << "--a = " << decrement<< endl;
+    
+   
+    cout << "\nAssignment Operators:" << endl;
+    cout << "c = " << c << endl;
+    c += 5;
+    cout << "c += 5: " << c << endl;
+    c -= 3;
+    cout << "c -= 3: " << c << endl;
+    c *= 2;
+    cout << "c *= 2: " << c << endl;
+    c /= 2;
+    cout << "c /= 2: " << c << endl;
+    c %= 3;
+    cout << "c %= 3: " << c << endl;
+    c &= 2;
+    cout << "c &= 2: " << c << endl;
+    c |= 1;
+    cout << "c |= 1: " << c << endl;
+    c ^= 3;
+    cout << "c ^= 3: " << c << endl;
+    c <<= 1;
+    cout << "c <<= 1: " << c << endl;
+    c >>= 1;
+    cout << "c >>= 1: " << c << endl;
+    
+    cout << "\nComparison  Operators:" << endl;
+    cout << "a == b: " << (a == b) << endl;
+    cout << "a != b: " << (a != b) << endl;
+    cout << "a > b: " << (a > b) << endl;
+    cout << "a < b: " << (a < b) << endl;
+    cout << "a >= b: " << (a >= b) << endl;
+    cout << "a <= b: " << (a <= b) << endl;
+    
+    cout << "\nLogical Operators:" << endl;
+    cout << "x && y: " << (a<5 && a<10) << endl;
+    cout << "x || y: " << (a<5 || a<11) << endl;
+    cout << "!x: " << !(a<5 && a<10) << endl;
+    
     return 0;
 }
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/2bdd76f0-1c20-4681-862a-4eaf58b8d6f5)
+![image](https://github.com/user-attachments/assets/f2ac5cf3-032d-4b2e-aa57-3577cb8c65f7)
+
 
 ## CODE 2 SIZE OF DATA TYPES USING VARIABLES
 ```cpp
@@ -179,4 +219,4 @@ int main() {
 ![image](https://github.com/user-attachments/assets/8613a136-dbf9-40ba-a50d-a48914322f67)
 
 ## Conclusion
-This simple program demonstrates the basic structure and workflow of a C++ program, including the use of headers, the main function, standard output, and the return statement
+We learnt the implementation and study of operators in C++ language.
