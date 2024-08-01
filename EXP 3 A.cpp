@@ -32,15 +32,6 @@ int main() {
     cout << "x || y: " << (x || y) << endl;
     cout << "!x: " << (!x) << endl;
 
-    // Bitwise operators
-    cout << "\nBitwise Operators:" << endl;
-    cout << "a & b: " << (a & b) << endl;
-    cout << "a | b: " << (a | b) << endl;
-    cout << "a ^ b: " << (a ^ b) << endl;
-    cout << "~a: " << (~a) << endl;
-    cout << "a << 1: " << (a << 1) << endl;
-    cout << "a >> 1: " << (a >> 1) << endl;
-
     // Assignment operators
     int c = 10;
     cout << "\nAssignment Operators:" << endl;
