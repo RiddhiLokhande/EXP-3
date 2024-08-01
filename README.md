@@ -81,11 +81,6 @@ These operators increase or decrease the value of a variable by one.
 1.  (++) Increment
 2.  (--) Decrement
 
-
-
-
-
-
 ## Code 1 SIZE OF DATATYPES 
 ```cpp
 //RIDDHI LOKAHNDE
@@ -154,8 +149,7 @@ int main(){
 }
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/f2ac5cf3-032d-4b2e-aa57-3577cb8c65f7)
-
+![image](https://github.com/user-attachments/assets/dbe6d4e2-d055-4499-b8c0-f1606818cfef)
 
 ## CODE 2 SIZE OF DATA TYPES USING VARIABLES
 ```cpp
