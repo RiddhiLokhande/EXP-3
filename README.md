@@ -15,49 +15,68 @@ In C++, operators are symbols that specify the operations to be performed on ope
 
 Arithmetic Operators
 These operators perform mathematical operations.
+Perform various arithmetic operations and use assignment operators to update variable values.
 
-+ (Addition)
-- (Subtraction)
-* (Multiplication)
-/ (Division)
-% (Modulus)
+1. - + (Addition)
+2. - - (Subtraction)
+3. - * (Multiplication)
+4. - / (Division)
+5. - % (Modulus)
 
--long: At least as large as an int.
--long long: Typically larger than a long.
-Each of these types can be signed (default) or unsigned.
-2. Character Types:
--char: Typically used to store characters.
--signed char: Ensures the char is signed.
--unsigned char: Ensures the char is unsigned.
--wchar_t: Used for wide characters.
-3. Floating-Point Types:
--float: Single-precision floating point.
--double: Double-precision floating point.
--long double: Extended-precision floating point.
-4. Boolean Type:
--bool: Represents true/false values.
-#### STORAGE CLASSES-
+Relational Operators
+These operators compare two values and return a boolean result.
 
-1. ##### Auto:
-Default storage class for local variables.
-Automatically inferred, but largely redundant in modern C++ as the type is deduced.
+1. - == (Equal to)
+2. - != (Not equal to)
+3. - > (Greater than)
+4. - < (Less than)
+5. - >= (Greater than or equal to)
+6. - <= (Less than or equal to)
 
-2. ##### Register:
-Suggests to the compiler to store the variable in a CPU register for faster access.
-Modern compilers often ignore this hint and manage registers automatically.
+Logical Operators
+These operators are used to perform logical operations and return a boolean result.
 
-3. ##### Static:
-For local variables, retains the variable's value between function calls.
-For global variables, restricts the visibility to the file in which it's declared.
-For class members, shared among all instances of the class.
+1. - && (Logical AND)
+2. - || (Logical OR)
+3. - ! (Logical NOT)
 
-4. ##### Extern:
-Declares a global variable or function that is defined in another file.
-Used to access variables or functions across multiple files.
+Bitwise Operators
+These operators perform bit-level operations on integer types.
+Implement a program that demonstrates the use of bitwise operators, such as setting, clearing, and toggling bits.
 
-5. ##### Mutable:
-Only applies to class member variables.
-Allows modification of a member variable even if the containing object is const.
+1. - & (Bitwise AND)
+2. - | (Bitwise OR)
+3. - ^ (Bitwise XOR)
+4. - ~ (Bitwise NOT)
+5. - << (Left shift)
+6. - >> (Right shift)
+
+Assignment Operators
+These operators assign values to variables.
+
+1. - = (Assignment)
+2. - += (Add and assign)
+3. - -= (Subtract and assign)
+4. - *= (Multiply and assign)
+5. - /= (Divide and assign)
+6. - %= (Modulus and assign)
+7. - &= (Bitwise AND and assign)
+8. - |= (Bitwise OR and assign)
+9. - ^= (Bitwise XOR and assign)
+10. - <<= (Left shift and assign)
+11. - >>= (Right shift and assign)
+
+Increment and Decrement Operators
+These operators increase or decrease the value of a variable by one.
+
+1. - ++ (Increment)
+2. - -- (Decrement)
+
+
+
+
+
+
 ## Code 1 SIZE OF DATATYPES 
 ```cpp
 //RIDDHI LOKHANDE
