@@ -81,7 +81,7 @@ These operators increase or decrease the value of a variable by one.
 1.  (++) Increment
 2.  (--) Decrement
 
-## Code 1 SIZE OF DATATYPES 
+## Code 1 Operators
 ```cpp
 //RIDDHI LOKAHNDE
 //ENTC B2
@@ -151,31 +151,6 @@ int main(){
 ### Output
 ![image](https://github.com/user-attachments/assets/dbe6d4e2-d055-4499-b8c0-f1606818cfef)
 
-## CODE 2 SIZE OF DATA TYPES USING VARIABLES
-```cpp
-
-//RIDDHI LOKAHNDE
-//ENTC B2
-//23070123107
-//EXP 3 B
-#include<iostream>
-using namespace std;
-int main(){
-    int a=5;
-    int b=6;
-    
-    cout << "\nBitwise Operators:" << endl;
-    cout << "AND (a & b): " << (a & b) << endl;
-    cout << "OR (a | b): " << (a | b) << endl;
-    cout << "XOR (a ^ b):" << (a ^ b) << endl;
-    cout << "NOT (~a) : " << (~a) << endl;
-    cout << "LEFT SHIFT (a << 1):" << (a << 1) << endl;
-    cout << "RIGHT SHIFT (a >> 1) : " << (a >> 1) << endl;
-    return 0;
-}
-```
-### Output
-![image](https://github.com/user-attachments/assets/3f8d5ab2-403b-48e4-98f6-208c5adf140b)
 
 ## Conclusion
 We learnt the implementation and study of operators in C++ language.
