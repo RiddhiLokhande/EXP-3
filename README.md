@@ -120,58 +120,29 @@ int main() {
 ## CODE 2 SIZE OF DATA TYPES USING VARIABLES
 ```cpp
 
-//RIDDHI LOKHANDE
+//RIDDHI LOKAHNDE
 //ENTC B2
-//EXP 2 B
 //23070123107
+//EXP 3 B
 #include<iostream>
 using namespace std;
-int main() {
-    int a;
-    char b;
-    signed char c;
-    unsigned char d;
-    float e;
-    double f;
-    long double g;
-    bool h;
-    cout<<"Enter an integer: ";
-    cin>>a;
-    cout<<"Size of int is:"<<sizeof(a)<<"\n";
-
-    cout<<"Enter a character: ";
-    cin>>b;
-    cout<<"Size of char is:"<<sizeof(b)<<"\n";
-
-    cout<<"Enter a character: ";
-    cin>>c;
-    cout<<"Size of signed char is:"<<sizeof(c)<<"\n";
-
-    cout<<"Enter a character: ";
-    cin>>d;
-    cout<<"Size of unsigned char is:"<<sizeof(d)<<"\n";
-
-    cout<<"Enter a number: ";
-    cin>>e;
-    cout<<"Size of float is:"<<sizeof(e)<<"\n";
+int main(){
+    int a=5;
+    int b=6;
     
-
-    cout<<"Enter a number: ";
-    cin>>f;
-    cout<<"Size of double is:"<<sizeof(f)<<"\n";
-
-    cout<<"Enter a number: ";
-    cin>>g;
-    cout<<"Size of long double is:"<<sizeof(g)<<"\n";
-
-    cout<<"Enter a bool value: "; 
-    cin>>h;
-    cout<<"Size of bool is:"<<sizeof(h)<<"\n";
-return 0;
+    cout << "\nBitwise Operators:" << endl;
+    cout << "AND (a & b): " << (a & b) << endl;
+    cout << "OR (a | b): " << (a | b) << endl;
+    cout << "XOR (a ^ b):" << (a ^ b) << endl;
+    cout << "NOT (~a) : " << (~a) << endl;
+    cout << "LEFT SHIFT (a << 1):" << (a << 1) << endl;
+    cout << "RIGHT SHIFT (a >> 1) : " << (a >> 1) << endl;
+    return 0;
 }
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/44c171ce-6911-4f0e-ac11-d84142c7e39e)
+![image](https://github.com/user-attachments/assets/3f8d5ab2-403b-48e4-98f6-208c5adf140b)
+
 
 ## CODE 3 STORAGE CLASSES
 ```cpp
