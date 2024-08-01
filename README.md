@@ -13,7 +13,8 @@ You need to have a C++ compiler installed on your system. Common options include
 ## Theory
 In C++, operators are symbols that specify the operations to be performed on operands. C++ provides a rich set of operators to perform various types of operations. These operators can be categorized into several groups:
 
-Arithmetic Operators
+##### Arithmetic Operators
+
 These operators perform mathematical operations.
 Perform various arithmetic operations and use assignment operators to update variable values.
 
@@ -23,7 +24,8 @@ Perform various arithmetic operations and use assignment operators to update var
 4.  / (Division)
 5.  % (Modulus)
 
-Relational Operators
+##### Relational Operators
+
 These operators compare two values and return a boolean result.
 
 1.  == (Equal to)
@@ -33,14 +35,16 @@ These operators compare two values and return a boolean result.
 5.  >= (Greater than or equal to)
 6.  <= (Less than or equal to)
 
-Logical Operators
+##### Logical Operators
+
 These operators are used to perform logical operations and return a boolean result.
 
 1.  && (Logical AND)
 2.  || (Logical OR)
 3.  ! (Logical NOT)
 
-Bitwise Operators
+##### Bitwise Operators
+
 These operators perform bit-level operations on integer types.
 Implement a program that demonstrates the use of bitwise operators, such as setting, clearing, and toggling bits.
 
@@ -51,7 +55,8 @@ Implement a program that demonstrates the use of bitwise operators, such as sett
 5.  << (Left shift)
 6.  >> (Right shift)
 
-Assignment Operators
+##### Assignment Operators
+
 These operators assign values to variables.
 
 1.  = (Assignment)
@@ -66,7 +71,8 @@ These operators assign values to variables.
 10.  <<= (Left shift and assign)
 11.  >>= (Right shift and assign)
 
-Increment and Decrement Operators
+##### Increment and Decrement Operators
+
 These operators increase or decrease the value of a variable by one.
 
 1.  ++ (Increment)
